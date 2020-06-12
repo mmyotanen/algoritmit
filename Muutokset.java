@@ -1,3 +1,6 @@
+/* Haluat muuttaa taulukkoa niin, että missään kohdassa ei ole kahta samaa lukua peräkkäin. 
+Saat joka siirrolla muuttaa minkä tahansa taulukossa olevan luvun joksikin muuksi. Mikä on pienin määrä siirtoja?
+*/
 public class Muutokset {
     int laske(int[] t) {
         int tulos = 0;
