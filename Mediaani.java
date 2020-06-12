@@ -1,3 +1,13 @@
+/*Tee luokka Mediaani, jossa on seuraavat metodit:
+
+void lisaa(int x): lisää uuden luvun listalle
+int mediaani(): ilmoittaa listan lukujen mediaanin
+
+ Jos alkioita on parillinen määrä, mediaani on keskikohdan vasemmalla puolella oleva alkio.
+
+*/
+
+
 import java.util.*;
 
 public class Mediaani {
