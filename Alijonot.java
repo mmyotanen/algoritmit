@@ -1,3 +1,11 @@
+/* Annettuna on taulukko lukuja ja tehtäväsi on selvittää, kuinka pitkä on pisin alijono, 
+jossa jokaisen peräkkäisen luvun ero on tasan 1.
+
+Esimerkiksi taulukossa [6,2,3,5,2,4,1,8] vastaus on 4, koska voimme muodostaa alijonon [2,3,2,1].
+
+*/
+
+
 import java.util.*;
 
 public class Alijonot {
@@ -21,10 +29,7 @@ public class Alijonot {
         return pisin;
         
         
-        /*haku(0,t);
-        long tulos = suurin;
-        suurin = 1;
-        return tulos;*/
+        
     }
     
     public void haku(int indeksi, int[] t) {
@@ -35,17 +40,16 @@ public class Alijonot {
         long vertaus = t[indeksi];
         for (int i = indeksi + 1; i < t.length; i++) {
             if (Math.abs(vertaus - t[i]) == 1) {
-                //System.out.println("kasvatan " + apuri);
+                
                 apuri++;
                 vertaus = t[i];
             }
             
         }
         if (suurin < apuri) {
-            //System.out.println("apuri" + apuri);
+            
             suurin = apuri;
-            //System.out.println("suurin " + suurin);
-            //System.out.println("muutos");
+           
         }
             
         haku(indeksi + 1, t);
