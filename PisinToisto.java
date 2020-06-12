@@ -1,3 +1,5 @@
+// Laskee kuinka pitkä on pisin samaa lukua toistava osuus taulukossa.
+
 public class PisinToisto {
     int laske(int[] t) {
         int tulos = 0;
