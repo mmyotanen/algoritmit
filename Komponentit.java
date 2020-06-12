@@ -1,3 +1,16 @@
+/* Tietoverkossa on n konetta (numeroitu 1, 2, ..., n), joiden välillä ei ole alussa yhteyksiä vaan jokainen kone on oma 
+komponenttinsa. Tehtäväsi on pitää kirjaa komponenttien määrästä, kun verkkoon tulee yhteyksiä.
+
+Tee luokka Komponentit, jossa on seuraavat metodit:
+
+Komponentit(int n): koneiden määrä annetaan konstruktorissa
+void yhdista(int a, int b): lisää yhteyden koneiden a ja b välille
+int laske(): ilmoittaa, montako komponenttia verkossa on
+
+
+*/
+
+
 import java.util.*;
 
 public class Komponentit {     
