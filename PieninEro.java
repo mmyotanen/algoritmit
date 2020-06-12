@@ -1,3 +1,5 @@
+// mikä on pienin ero kahden taulukossa olevan luvun välillä.
+
 import java.util.*;
 
 public class PieninEro {
