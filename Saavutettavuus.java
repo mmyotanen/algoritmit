@@ -1,3 +1,19 @@
+/* Tietoverkko muodostuu n koneesta, jotka on numeroitu 1, 2, ..., n. Verkossa on joukko yhteyksiä, 
+joista kunkin kautta voi lähettää tietoa molempiin suuntiin kahden koneen välillä. Tehtäväsi on selvittää, 
+monenko koneen kanssa tietty kone voi viestiä.
+
+Huom! Tässä ja vastaavissa tehtävissä koneet voivat viestiä keskenään, 
+jos niiden välillä on reitti mahdollisesti muiden koneiden kautta.
+
+Tee luokka Saavutettavuus, jossa on seuraavat metodit:
+
+Saavutettavuus(int n): koneiden määrä annetaan konstruktorissa
+void lisaaYhteys(int a, int b): lisää yhteyden koneiden a ja b välille
+int laske(int x): ilmoittaa, monenko koneen kanssa kone x voi viestiä
+
+*/
+
+
 import java.util.*;
 
 public class Saavutettavuus {  
