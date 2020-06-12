@@ -1,3 +1,12 @@
+/*Tehtäväsi on muodostaa kaikki n-merkkiset merkkijonot, jotka koostuvat merkeistä A ja B.
+
+Tee luokka Merkkijonot, jossa on seuraavat metodit:
+
+ArrayList<String> muodosta(int n): palauttaa listan merkkijonoista aakkosjärjestyksessä
+
+*/
+
+
 import java.util.*;
 
 public class Merkkijonot {  
