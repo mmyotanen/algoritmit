@@ -1,3 +1,17 @@
+/* Sinulle annetaan tiedot n kaupungin välisistä lentoyhteyksistä. Kaupungit on numeroitu 1, 2, ..., n, ja 
+jokainen yhteys yhdistää kaksi kaupunkia ja sitä voi kulkea molempiin suuntiin. Kun haluat matkustaa kaupungista x kaupunkiin y, 
+mikä on pienin mahdollinen määrä välilaskuja?
+
+Tee luokka Lentoreitti, jossa on seuraavat metodit:
+
+Lentoreitti(int n): konstruktorissa annetaan kaupunkien määrä
+void lisaaYhteys(int a, int b): lisää yhteyden kaupunkien a ja b välille
+int laske(int x, int y): palauttaa pienimmän välilaskujen määrän reitillä kaupungista x kaupunkiin y (tai –1, 
+jos mitään reittiä ei ole olemassa)
+
+*/
+
+
 import java.util.*;
 
 public class Lentoreitti {  
