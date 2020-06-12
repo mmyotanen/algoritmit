@@ -1,5 +1,6 @@
-// Joka askeleella muodostat taulukosta uuden taulukon, jonka jokainen alkio on summa kahdesta vierekkäisestä alkiosta alkuperäisessä taulukossa. Jatkat näin, kunnes taulukossa on vain yksi alkio.
-
+/* Joka askeleella muodostat taulukosta uuden taulukon, jonka jokainen alkio on summa kahdesta 
+vierekkäisestä alkiosta alkuperäisessä taulukossa. Jatkat näin, kunnes taulukossa on vain yksi alkio.
+*/
 import java.util.*;
 
 public class Taulukko {
