@@ -1,3 +1,7 @@
+/* Tien varrella on n taloa, joista jokaisella on tietty sijainti (kohta x-akselilla). Tehtäväsi on rakentaa tielle bussipysäkkejä niin, 
+että jokaisen talon etäisyys lähimpään pysäkkiin on enintään k. Mikä on pienin mahdollinen määrä pysäkkejä?
+*/
+
 import java.util.*;
 
 public class Pysakit {
