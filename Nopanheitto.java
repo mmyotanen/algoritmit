@@ -1,3 +1,14 @@
+/* Tehtäväsi on laskea, monellako tavalla voit saada summan n heittämällä yhden tai useamman kerran noppaa. 
+Jokainen nopan heitto tuottaa silmäluvun 1–6. Esimerkiksi jos n = 4, tapoja on kaikkiaan 8: 
+[1,1,1,1], [1,1,2], [1,2,1], [2,1,1], [2,2], [1,3], [3,1] ja [4].
+
+Tee luokka Nopanheitto, jossa on seuraavat metodit:
+
+long laske(int n): palauttaa heittotapojen määrän
+
+*/
+
+
 import java.util.*;
 
 public class Nopanheitto {  
