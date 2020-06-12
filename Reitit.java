@@ -1,3 +1,16 @@
+/* Annettuna on suunnattu syklitön verkko, jossa on n solmua (numeroitu 1, 2, ..., n). Tehtäväsi on laskea,
+montako erilaista reittiä on solmusta 1 solmuun n.
+
+Tee luokka Reitit, jossa on seuraavat metodit:
+
+Reitit(int n): konstruktorissa annetaan solmujen määrä
+void lisaaKaari(int a, int b): lisää kaaren solmusta a solmuun b
+long laske(): ilmoittaa reittien määrän
+
+
+*/
+
+
 import java.util.*;
  
 public class Reitit {
