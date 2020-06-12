@@ -1,3 +1,16 @@
+/* Bittimaassa on n kaupunkia, jotka on numeroitu 1, 2, ..., n. Kaupunkien välillä on kaksisuuntaisia teitä, 
+joilla on tietyt pituudet. Tehtäväsi on selvittää lyhimmän reitin pituus kaupungista x kaupunkiin y.
+
+Tee luokka LyhinReitti, jossa on seuraavat metodit:
+
+LyhinReitti(int n): kaupunkien määrä annetaan konstruktorissa
+void lisaaTie(int a, int b, int p): lisää kaupunkien a ja b välille tien, jonka pituus on p
+int laske(int x, int y): ilmoittaa lyhimmän reitin pituuden kaupungista x kaupunkiin y (tai –1, jos mitään reittiä ei ole)
+
+
+*/
+
+
 import java.util.*;
 class Kaari {
     int alku;
