@@ -1,3 +1,17 @@
+/* Tietoverkko muodostuu n koneesta, jotka on numeroitu 1, 2, ..., n. Verkossa on joukko yhteyksiä, 
+joista kunkin kautta voi lähettää tietoa molempiin suuntiin kahden koneen välillä. Kaksi konetta kuuluvat samaan komponenttiin, 
+jos niiden välillä voi viestiä yhteyksiä käyttäen. Tehtäväsi on laskea verkon komponenttien määrä.
+
+Tee luokka Komponentit, jossa on seuraavat metodit:
+
+Komponentit(int n): koneiden määrä annetaan konstruktorissa
+void lisaaYhteys(int a, int b): lisää yhteyden koneiden a ja b välille
+int laske(): palauttaa komponenttien määrän
+
+
+*/
+
+
 import java.util.*;
 
 public class Komponentit {  
