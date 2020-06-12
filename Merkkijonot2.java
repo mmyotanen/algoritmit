@@ -1,3 +1,10 @@
+/*Tehtäväsi on muodostaa kaikki n-merkkiset merkkijonot, jotka muodostuvat k ensimmäisestä suuresta aakkosesta.
+
+Tee luokka Merkkijonot, jossa on seuraavat metodit:
+
+ArrayList<String> muodosta(int n, int k): palauttaa listan merkkijonoista aakkosjärjestyksessä
+*/
+
 import java.util.*;
 
 public class Merkkijonot {  
