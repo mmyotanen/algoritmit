@@ -1,3 +1,16 @@
+/* Bittimaassa on n kaupunkia, jotka on numeroitu 1, 2, ..., n. Kaupunkien välillä on kaksisuuntaisia teitä, joilla on tietyt pituudet. 
+Tehtäväsi on muodostaa lyhimmän reitin kuvaus kaupungista x kaupunkiin y.
+
+Tee luokka LyhinReitti, jossa on seuraavat metodit:
+
+LyhinReitti(int n): kaupunkien määrä annetaan konstruktorissa
+void lisaaTie(int a, int b, int p): lisää kaupunkien a ja b välille tien, jonka pituus on p
+ArrayList<Integer> muodosta(int x, int y): ilmoittaa lyhimmän reitin kaupungista x kaupunkiin y listana kaupunkeja 
+(tai null, jos mitään reittiä ei ole)
+
+*/
+
+
 import java.util.*;
  
 public class LyhinReitti { 
@@ -84,4 +97,31 @@ public class LyhinReitti {
     }
     
         
+}
+
+public class Edge {
+    
+    int mista;
+    int mihin; 
+    int etaisyys;
+    
+    public Edge(int a, int b, int p) {
+        this.mista = a;
+        this.mihin = b;
+        this.etaisyys = p;
+        
+    }
+    
+    public int getEka() {
+        return mista;
+    }
+        
+    public int getVika() {
+        return mihin;
+    }
+    
+    public int getDistance() {
+        return etaisyys;
+    }
+    
 }
