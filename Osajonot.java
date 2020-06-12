@@ -1,3 +1,5 @@
+// Palauttaa, montako kertaa merkkijono b esiintyy osajonona merkkijonossa a.
+
 public class Osajonot {
     int laske(String a, String b) {
         int apuri = b.length();
