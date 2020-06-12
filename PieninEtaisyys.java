@@ -1,3 +1,7 @@
+/* Tehtäväsi on toteuttaa luokka, joka pitää yllä lukujen kokoelmaa. Kokoelmaan voi lisätä uuden luvun sekä kysyä, 
+mikä on pienin etäisyys kahden eri luvun välillä.
+*/
+
 import java.util.*;
 
 public class PieninEtaisyys {
