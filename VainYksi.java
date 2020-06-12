@@ -1,3 +1,5 @@
+// Jokainen taulukon luku esiintyy tasan kahdesti, paitsi yksi luku esiintyy vain kerran. Mikä on tämä luku?
+
 import java.util.*;
 
 public class VainYksi {
@@ -14,5 +16,7 @@ public class VainYksi {
             i++;
         }
         return 0;
+        
+        
     }
 }
