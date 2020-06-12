@@ -1,3 +1,9 @@
+/*Sinulle annetaan lukuja yksi kerrallaan, ja tehtäväsi on ilmoittaa jokaisen luvun kohdalla, 
+montako lukua oli välissä ennen kuin sama luku esiintyi viimeksi aiemmin.
+
+*/
+
+
 import java.util.*;
 
 public class Toistuminen {
