@@ -1,3 +1,15 @@
+/* Sinulle annetaan tiedot yliopiston kursseista ja niiden esitietovaatimuksista, ja tehtäväsi on etsiä järjestys, 
+jossa voit suorittaa kaikki kurssit vaatimusten mukaisesti.
+
+Tee luokka Kurssit, jossa on seuraavat metodit:
+
+void lisaaKurssi(String s): lisää suoritettavaksi kurssin nimeltä s
+void lisaaVaatimus(String a, String b): määrittää, että kurssi a tulee suorittaa ennen kurssia b
+ArrayList<String> muodosta(): ilmoittaa tavan suorittaa kurssit vaatimusten mukaisesti (tai null jos tämä on mahdotonta)
+
+*/
+
+
 import java.util.*;
 
 public class Kurssit {
