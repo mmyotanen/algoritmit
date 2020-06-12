@@ -1,4 +1,4 @@
-
+// Tehtäväsi on toteuttaa listarakenne, jossa pystyy lisäämään tehokkaasti alkion listan alkuun ja loppuun sekä hakemaan annetussa kohdassa olevan alkion.
 
 
 public class Lista {
